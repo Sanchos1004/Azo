@@ -6,24 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,300" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="javascript/script.js"></script>
     <title>Document</title>
 </head>
 <body>
-    <script>
-        function openCity(evt, cityName) {
-          var i, tabcontent, tablinks;
-          tabcontent = document.getElementsByClassName("tabcontent");
-          for (i = 0; i < tabcontent.length; i++) {
-            tabcontent[i].style.display = "none";
-          }
-          tablinks = document.getElementsByClassName("tablinks");
-          for (i = 0; i < tablinks.length; i++) {
-            tablinks[i].className = tablinks[i].className.replace(" active", "");
-          }
-          document.getElementById(cityName).style.display = "flex";
-          evt.currentTarget.className += " active";
-        }
-    </script>
     <div class="socmedia">
         <div class="div">
             <h2 class="socm"><b>Social Media</b></h2>
@@ -33,7 +19,7 @@
     </div>
     <div class="tabs">
         <div class="tab">
-            <button class="tablinks" id="tablinks1" onclick="openCity(event, 'TAB_1')">TAB 1</button><br>
+            <button class="tablinks" id="tablinks1" onclick="openTab(event, 'TAB_1')">TAB 1</button><br>
             <button class="tablinks">TAB 2</button><br>
             <button class="tablinks" id="tablinks2">TAB 3</button><br>
           </div>
