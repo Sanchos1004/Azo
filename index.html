@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,300" rel="stylesheet" type="text/css">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function openCity(evt, cityName) {
+          var i, tabcontent, tablinks;
+          tabcontent = document.getElementsByClassName("tabcontent");
+          for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+          }
+          tablinks = document.getElementsByClassName("tablinks");
+          for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+          }
+          document.getElementById(cityName).style.display = "flex";
+          evt.currentTarget.className += " active";
+        }
+    </script>
+    <div class="socmedia">
+        <div class="div">
+            <h2 class="socm"><b>Social Media</b></h2>
+            <p class="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>Aenean euismod bibendum laoreet.</p>
+        </div>
+        <img class="img_soc" src="img/social_media.png">
+    </div>
+    <div class="tabs">
+        <div class="tab">
+            <button class="tablinks" id="tablinks1" onclick="openCity(event, 'TAB_1')">TAB 1</button><br>
+            <button class="tablinks">TAB 2</button><br>
+            <button class="tablinks" id="tablinks2">TAB 3</button><br>
+          </div>
+          <div id="TAB_1" class="tabcontent">
+            <div class="text_1">
+                <h3 class="tab_text1"><b>Tabs with soft transitioning effect.</b></h3>
+                <p class="tab_text2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
+                    bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra 
+                    justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque 
+                    penatibus et magnis dis parturient montes.<br><br>             
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
+                    bibendum laoreet.
+                </p>
+                <button class="down_tab">Download</button>
+            </div>
+            <img class="tab_foto" src="img/tab_town.png">
+          </div>
+    </div>
+</body>
+</html>

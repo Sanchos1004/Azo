@@ -1,0 +1,119 @@
+.socmedia{
+    width: 1400px;
+    height: 105px;
+    background-color: #ffffff;
+    box-shadow: 0px 1px 4px 1px rgba(0,0,0,0.37);
+    display: flex;
+    margin: 0 auto;
+}
+.socm{
+    font-family: 'Open Sans';
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #333333;
+    margin-left: 152px;
+    margin-top: 15px;
+    margin-bottom: 1px;
+    
+}
+.lorem{
+    font-family: 'Open Sans';
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #86878b;
+    padding-left: 152px;
+    margin-top: 6px;
+}
+.img_soc{
+    font-family: 'Font Awesome';
+    font-size: 48px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #cccccc;
+    width: 635px;
+    height: 50px;
+    margin-top: 29px;
+    margin-left: 150px;
+    margin-right: 100px;
+}
+.tabs{
+    background-color: #f5f5f5;
+    display: flex;
+    margin: 0 auto;
+    width: 1405px;
+    height: 595px;
+}
+.tablinks{
+    width: 112px;
+    height: 112px;
+    font-family: 'Open Sans';
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 700;
+    color: #ffffff;
+}
+.tab {
+    overflow: hidden;
+    background-color: #f1f1f1;
+    margin-left: 142px;
+    margin-top: 147px;
+    margin-bottom: 100px;
+}
+.tab button {
+    background-color: #333333;
+    border: none;
+    margin: 1px;
+}
+.tab button.active {
+    background-color: #ff8b38;
+}
+.tabcontent {
+    display: none;
+    border: none;
+    width: 60%;
+    height: 50%;
+    margin-left: 100px;
+    margin-top: 135px;
+}
+.down_tab{
+    background-color: #ff8b38;
+    width: 121px;
+    height: 46px;
+    border: none;
+    margin-top: 60px;
+    border-radius: 5px;
+    color: #ffffff; 
+}
+.tab_foto{
+    width: 320px;
+    height: 253px;
+    margin-top: 50px;
+    margin-left: 125px;
+}
+.tab_text1{
+    font-family: 'Open Sans';
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #000000;
+}
+.tab_text2{
+    font-family: 'Open Sans';
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #86878b;
+}
+.text_1{
+    width: 430px;
+}
+#tablinks1{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+#tablinks2{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
