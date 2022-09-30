@@ -462,3 +462,187 @@ body{
     margin-left: 146px;
     text-align: center;
 }
+.list-section {
+    height: 596px;
+    background-color: #ffffff;
+    display: flex;
+}
+
+.list-section img{
+    width: 453px;
+    height: 303px;
+    margin: 130px 0 0 150px;
+    box-shadow: 0px 10px 20px 10px rgba(0, 0, 0, 0.2)
+}
+.list {
+    margin: 105px 0 0 195px;
+}
+
+.sublist {
+    margin-bottom: 45px;
+}
+.sublist h2{
+    font-family: 'Open Sans';
+    font-size: 20px;
+    line-height: 43px;
+    font-weight: 700;
+    color: #212121;
+}
+.sublist p{
+    font-family: 'Open Sans';
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #86878b;
+}
+.hr2 {
+    width: 64px;
+    height: 2px;
+    background-color: #ff8b38;
+    margin: 28px 0 28px 0;
+}
+.upload-list {
+    margin-bottom: 40px;
+    background: url("/img/unknown.png") 0 0 no-repeat ;
+    padding-left: 70px;
+    
+}
+.upload-list h4{
+    margin-bottom: 10px;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 600;
+    color: #212121;
+
+}
+.upload-list p{
+    font-family: 'Open Sans';
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #86878b;
+}
+
+.download-list p{
+    font-family: 'Open Sans';
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #86878b;
+}
+
+.download-list h4{
+    margin-bottom: 10px;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 600;
+    color: #212121;
+
+}
+.download-list{
+    background: url("/img/unknown2.png") 0 0 no-repeat ;
+    padding-left: 70px;
+    
+}
+
+.goodtext {
+    height: 592px;
+    background-color: #ffffff;
+    
+    
+}
+.goodtext h2{
+    padding-top: 105px;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 36px;
+    line-height: 43px;
+    font-weight: 400;
+    color: #212121;
+}
+.underp{
+    font-family: 'Open Sans';
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #86878b;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.hr3 {
+    margin: 0 auto;
+    width: 64px;
+    height: 2px;
+    background-color: #ff8b38;
+    margin-top:30px ;
+    margin-bottom: 30px;
+
+}
+.cards{
+    display: flex;
+    text-align: center;
+}
+.design {
+    margin-left: 145px;
+    background: url('/img/first.png') top no-repeat;
+    padding-top: 100px;
+ 
+}
+.design h4{
+    font-family: 'Open Sans';
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #333333;
+    margin-bottom: 20px;
+}
+.design p{
+    font-family: 'Open Sans';
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #86878b;
+}
+.crafted {
+    margin-left: 30px;
+    background: url('/img/second.png')top no-repeat;
+    padding-top: 100px;
+}
+.crafted h4{
+    font-family: 'Open Sans';
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #333333;
+    margin-bottom: 20px;
+
+}
+.crafted p{
+    font-family: 'Open Sans';
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #86878b;
+}
+.customize {
+    margin-left: 30px;
+    background: url('/img/third.png')top no-repeat;
+    padding-top: 100px;
+}
+.customize h4{
+    font-family: 'Open Sans';
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #333333;
+    margin-bottom: 20px;
+}
+.customize p{
+    font-family: 'Open Sans';
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #86878b;
+}
